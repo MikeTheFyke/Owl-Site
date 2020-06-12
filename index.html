@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="./styles/index.css" type="text/css" />
+    <link rel="stylesheet" href="./styles/styles.css" type="text/css" />
 </head>
 
 <body>
 
     <h1>Welcome to Owl Sign Weight Calculator</h1>
 
-    <form>
+    <form onsubmit="event.preventDefault();"> 
         <label for="signs">Select sign size:</label>
             <select name="signs" id="signs">
                 <option value="30X30">30X30</option>
@@ -35,8 +35,12 @@
                 <option value="090POLY">.090 POLY</option>
             </select>
         <input placeholder="Enter amount of signs">
+        <button onclick="weightCalculator()">Submit</button>
+        <br></br>
     </form>
 
+    <h1 id="totalWeight">0</h1>
+    
     <script src="./logic/signLogic.js"></script>
 
 </body>
