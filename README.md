@@ -1,0 +1,1 @@
+Ive created this simple app to calculate sign weights.
