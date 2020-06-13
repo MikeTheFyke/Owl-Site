@@ -1,5 +1,5 @@
 body{
-
+    text-align: center;
 }
 
 
@@ -18,13 +18,36 @@ body{
     font-size: 20px;
 }
 
+#submitButton{
+    background-color: #1947BA;;
+    color: white;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
 #weightOutputContainer{
+    display: inline-block;
     width: 694px;
-    padding: 10px;
+    height: 40px;
+    padding: 0px 10px;
     background-color: white;
-    border-color: #1947BA;
     color: #1947BA;
     border-style: solid;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    border-left-color: #1947BA;
+    border-right-color: #1947BA;
+    border-bottom-color: #1947BA;
+    border-top-color: transparent;
+}
+
+#totalWeight{
+    margin: 0px;
+    float: right;
+    padding-right: 5px;
+}
+
+#totalWeightText{
+    margin: 0px;
+    float: right;
 }
