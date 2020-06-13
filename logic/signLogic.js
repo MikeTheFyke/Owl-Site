@@ -48,7 +48,7 @@ function weightCalculator () {
     if (strUser = "45X90"){
         signs45X90 ();
     }
-    
+
     if (strUser = "60X60"){
         signs60X60 ();
     }
@@ -145,7 +145,33 @@ function signs30X45 (){
 }
 
 function signs30X60 (){
-    
+    if (strUser2 == ".20GA"){
+        calculateWeight = .58 * numberOfSigns;
+    }
+    if (strUser2 == ".40GA"){
+        calculateWeight = 1.15 * numberOfSigns;
+    }
+    if (strUser2 == ".064GA"){
+        calculateWeight = 1.8 * numberOfSigns;
+    }
+    if (strUser2 == ".081GA"){
+        calculateWeight = 2.26 * numberOfSigns;
+    }
+    if (strUser2 == "1.25GA"){
+        calculateWeight = 3.6 * numberOfSigns;
+    } 
+    if (strUser2 == "16GA"){
+        calculateWeight = 5.3 * numberOfSigns;
+    }
+    if (strUser2 == "1/2PLY"){
+        calculateWeight = 2.5 * numberOfSigns;
+    }
+    if (strUser2 == "3/4MDO"){
+        calculateWeight = 4.5 * numberOfSigns;
+    }
+    if (strUser2 == ".090POLY"){
+        calculateWeight = 1 * numberOfSigns;
+    } 
 }
 
 function signs30X90 (){
