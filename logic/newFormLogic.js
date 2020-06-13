@@ -83,9 +83,16 @@ function newSign () {
     typeList.setAttribute('id','signsType');
     newSignForm.appendChild(typeList);
 
+    var type1 = document.createElement("option");
+    type1.setAttribute('value','.20GA');
+    type1.setAttribute('label','.20');
+    typeList.appendChild(type1);
+
+///
+
     var newSignsNumberInput = document.createElement("input");
     newSignsNumberInput.setAttribute('id','signsNumberInput');
-    newSignsNumberInput.setAttribute('value',"Enter amount of signs");
+    newSignsNumberInput.setAttribute('placeholder',"Enter amount of signs");
     newSignForm.appendChild(newSignsNumberInput);
 
     var newSubmitButton = document.createElement("button");
