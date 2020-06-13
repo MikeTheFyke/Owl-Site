@@ -69,3 +69,20 @@ body{
     margin: 0px;
     float: right;
 }
+
+#plusContainer{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    float: right;
+}
+
+#plusSign{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 0px;
+    background-color: #1947BA;
+    color: white;
+    font-size: 40px;
+}
