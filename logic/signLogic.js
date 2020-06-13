@@ -81,7 +81,7 @@ function weightCalculator () {
         signs120X120 ();
     }
 
-    document.getElementById("totalWeight").innerHTML = calculateWeight;
+    document.getElementById("totalWeight").innerHTML = Math.round(calculateWeight);
 }
 
 function signs30X30() {
