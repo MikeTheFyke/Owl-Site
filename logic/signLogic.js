@@ -415,7 +415,33 @@ function signs60X75 (){
 }
 
 function signs60X90 (){
-    
+    if (strUser2 == ".20GA"){
+        calculateWeight = 1.73 * numberOfSigns;
+    }
+    if (strUser2 == ".40GA"){
+        calculateWeight = 3.46 * numberOfSigns;
+    }
+    if (strUser2 == ".064GA"){
+        calculateWeight = 5.41 * numberOfSigns;
+    }
+    if (strUser2 == ".081GA"){
+        calculateWeight = 6.85 * numberOfSigns;
+    }
+    if (strUser2 == "1.25GA"){
+        calculateWeight = 10.8 * numberOfSigns;
+    } 
+    if (strUser2 == "16GA"){
+        calculateWeight = 15.9 * numberOfSigns;
+    }
+    if (strUser2 == "1/2PLY"){
+        calculateWeight = 7.5 * numberOfSigns;
+    }
+    if (strUser2 == "3/4MDO"){
+        calculateWeight = 13.5 * numberOfSigns;
+    }
+    if (strUser2 == ".090POLY"){
+        calculateWeight = 3 * numberOfSigns;
+    } 
 }
 
 function signs75X75 (){
