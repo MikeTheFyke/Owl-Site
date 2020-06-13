@@ -18,8 +18,12 @@ body{
     font-size: 20px;
 }
 
+#signsType{
+    background-color: white;
+}
+
 #submitButton{
-    background-color: #1947BA;;
+    background-color: #1947BA;
     color: white;
     border-radius: 5px;
     border-color: transparent;
