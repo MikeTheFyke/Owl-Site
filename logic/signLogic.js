@@ -1,9 +1,11 @@
 var calculateWeight = 1;
+var e;
+var strUser;
 
-var e = document.getElementById("signsSize");
-var strUser = e.option[e.selectedIndex].text;
 
 function weightCalculator () {
+    e = document.getElementById("signsSize");
+    strUser = e.options[e.selectedIndex].value;
     document.getElementById("totalWeight").innerHTML = strUser;
 }
 
