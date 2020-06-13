@@ -592,28 +592,3 @@ function signs120X120 (){
         calculateWeight = 8 * numberOfSigns;
     } 
 }
-
-function newSign () {
-    var f = document.createElement("form");
-    f.setAttribute('onsubmit','preventDefault()');
-    f.setAttribute('autocomplete','off');
-
-    var i = document.createElement("select");
-    i.setAttribute('name','signs');
-    i.setAttribute('id','signsSize');
-
-    var size1 = document.createElement("option");
-    size1.setAttribute('value','30X30');
-    size1.setAttribute('label','30X30');
-
-    var size2 = document.createElement("option");
-    size2.setAttribute('value','30X45');
-    size2.setAttribute('label','30X45');
-
-    i.appendChild(size1);
-    i.appendChild(size2);
-    f.appendChild(i);
-
-    
-    document.body.appendChild(f);
-}
