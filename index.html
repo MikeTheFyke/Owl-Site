@@ -2,44 +2,47 @@
 <html>
 <head>
     <link rel="stylesheet" href="./styles/styles.css" type="text/css" />
+    <title>Owl Sight</title>
 </head>
 
 <body>
 
     <h1>Welcome to Owl Sign Weight Calculator</h1>
 
-    <form onsubmit="event.preventDefault();"> 
-        <label for="signs">Select sign size:</label>
-            <select name="signs" id="signs">
-                <option value="30X30">30X30</option>
-                <option value="30X45">30X45</option>
-                <option value="30X60">30X60</option>
-                <option value="30X90">30X90</option>
-                <option value="30X120">30X120</option>
-                <option value="45X45">45X45</option>
-                <option value="45X60">45X60</option>
-                <option value="45X75">45X75</option>
-                <option value="45X90">45X90</option>
-                <option value="60X60">60X60</option>
-            </select>
-        <label for="signType">Select sign material:</label>
-            <select name="signType" id="signType">
-                <option value=".20GA">.20</option>
-                <option value=".40GA">.40</option>
-                <option value=".064GA">.064</option>
-                <option value=".081GA">.081</option>
-                <option value="1.25GA">1.25</option>
-                <option value="16GA">16GA</option>
-                <option value="1/2PLY">1/2 PLY</option>
-                <option value="3/4MDO">3/4 MDO</option>
-                <option value="090POLY">.090 POLY</option>
-            </select>
-        <input placeholder="Enter amount of signs">
-        <button onclick="weightCalculator()">Submit</button>
-        <br></br>
-    </form>
+    <div>
+        <form onsubmit="event.preventDefault();"> 
+            <label for="signs">Select sign size:</label>
+                <select name="signs" id="signs">
+                    <option value="30X30">30X30</option>
+                    <option value="30X45">30X45</option>
+                    <option value="30X60">30X60</option>
+                    <option value="30X90">30X90</option>
+                    <option value="30X120">30X120</option>
+                    <option value="45X45">45X45</option>
+                    <option value="45X60">45X60</option>
+                    <option value="45X75">45X75</option>
+                    <option value="45X90">45X90</option>
+                    <option value="60X60">60X60</option>
+                </select>
+            <label for="signType">Select sign material:</label>
+                <select name="signType" id="signType">
+                    <option value=".20GA">.20</option>
+                    <option value=".40GA">.40</option>
+                    <option value=".064GA">.064</option>
+                    <option value=".081GA">.081</option>
+                    <option value="1.25GA">1.25</option>
+                    <option value="16GA">16GA</option>
+                    <option value="1/2PLY">1/2 PLY</option>
+                    <option value="3/4MDO">3/4 MDO</option>
+                    <option value="090POLY">.090 POLY</option>
+                </select>
+            <input placeholder="Enter amount of signs">
+            <button onclick="weightCalculator()">Submit</button>
+            <br></br>
+        </form>
 
-    <h1 id="totalWeight">0</h1>
+        <h1 id="totalWeight">0</h1>
+    </div>
     
     <script src="./logic/signLogic.js"></script>
 
