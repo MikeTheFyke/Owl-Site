@@ -70,6 +70,41 @@ function newSign () {
     size10.setAttribute('value','60X60');
     size10.setAttribute('label','60X60');
     sizeList.appendChild(size10);
-    
+
+///
+
+    var newLabelSignType = document.createElement("label");
+    newLabelSignType.innerHTML = "Select sign material:";
+    newLabelSignType.setAttribute('for','signsType');
+    newSignForm.appendChild(newLabelSignType);
+
+    var typeList = document.createElement("select");
+    typeList.setAttribute('name','signsType');
+    typeList.setAttribute('id','signsType');
+    newSignForm.appendChild(typeList);
+
+    var newSignsNumberInput = document.createElement("input");
+    newSignsNumberInput.setAttribute('id','signsNumberInput');
+    newSignsNumberInput.setAttribute('value',"Enter amount of signs");
+    newSignForm.appendChild(newSignsNumberInput);
+
+    var newSubmitButton = document.createElement("button");
+    newSubmitButton.setAttribute('id','submitButton');
+    newSubmitButton.innerHTML = "SUBMIT";
+    newSubmitButton.setAttribute('onclick','weightCalculator()');
+    newSignForm.appendChild(newSubmitButton);
+
+///
+
+    var newPlusContainer = document.createElement("div");
+    newPlusContainer.setAttribute('id','plusContainer');
+
+    var newPlusButton = document.createElement("button");
+    newPlusButton.setAttribute('id','plusSign');
+    newPlusButton.setAttribute('onclick','newSign()');
+    newPlusButton.innerHTML = "+";
+    newPlusContainer.appendChild(newPlusButton);
+
     document.body.appendChild(newWeightContainer);
+    document.body.appendChild(newPlusContainer);
 }
