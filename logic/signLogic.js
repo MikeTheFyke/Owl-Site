@@ -13,16 +13,10 @@ function weightCalculator () {
     strUser = signsSize.options[signsSize.selectedIndex].value;
     strUser2 = signsType.options[signsType.selectedIndex].value;
 
-
-    console.log(strUser);
-    console.log(strUser2);
-
-    if (strUser = "30X30" && strUser2 == ".20GA"){
-        calculateWeight = .29 * numberOfSigns;
+    if (strUser = "30X30"){
+        signs30X30();
     }
-    if (strUser = "30X30" && strUser2 == ".40GA"){
-        calculateWeight = .58 * numberOfSigns;
-    } 
+
     if (strUser = "30X45" && strUser2 == ".20GA"){
         calculateWeight = .43 * numberOfSigns;
     }
@@ -30,3 +24,11 @@ function weightCalculator () {
     document.getElementById("totalWeight").innerHTML = calculateWeight;
 }
 
+function signs30X30() {
+    if (strUser = "30X30" && strUser2 == ".20GA"){
+        calculateWeight = .29 * numberOfSigns;
+    }
+    if (strUser = "30X30" && strUser2 == ".40GA"){
+        calculateWeight = .58 * numberOfSigns;
+    } 
+}
