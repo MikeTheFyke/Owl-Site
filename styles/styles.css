@@ -23,11 +23,18 @@ body{
     outline: none;
 }
 
+#signsNumberInput{
+    outline: none;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
 #submitButton{
     background-color: #1947BA;
     color: white;
     border-radius: 5px;
     border-color: transparent;
+    outline: none;
 }
 
 #weightOutputContainer{
