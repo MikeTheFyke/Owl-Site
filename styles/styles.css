@@ -30,6 +30,7 @@ body{
 }
 
 #submitButton{
+    margin-left: 10px;
     background-color: #1947BA;
     color: white;
     border-radius: 5px;
