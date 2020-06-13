@@ -15,7 +15,9 @@ function weightCalculator () {
 
     if (strUser = "30X30"){
         calculateWeight = .29 * numberOfSigns;
-        console.log(numberOfSigns);
+    } 
+    if (strUser = "30X45"){
+        calculateWeight = .43 * numberOfSigns;
     }
 
     document.getElementById("totalWeight").innerHTML = calculateWeight;
