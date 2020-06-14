@@ -18,6 +18,7 @@ body{
 #weightContainer{
     width: 700px;
     display: inline-block;
+    margin-top: 75px;
 }
 #weightInputContainer{
     width: 700px;
@@ -87,6 +88,7 @@ body{
     height: 50px;
     text-align: center;
     float: right;
+    margin-top: 75px;
 }
 
 #plusSign{
