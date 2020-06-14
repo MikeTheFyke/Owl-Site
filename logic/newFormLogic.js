@@ -9,6 +9,7 @@ function newSign () {
     var newSignForm = document.createElement("form");
     newSignForm.setAttribute('onsubmit','preventDefault()');
     newSignForm.setAttribute('autocomplete','off');
+    
     newWeightInputContainer.appendChild(newSignForm);
 
     var newLabelSignSize = document.createElement("label");
