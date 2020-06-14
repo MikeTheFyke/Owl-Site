@@ -88,6 +88,45 @@ function newSign () {
     type1.setAttribute('label','.20');
     typeList.appendChild(type1);
 
+    var type2 = document.createElement("option");
+    type2.setAttribute('value','.40GA');
+    type2.setAttribute('label','.40');
+    typeList.appendChild(type2);
+
+    var type3 = document.createElement("option");
+    type3.setAttribute('value','.064GA');
+    type3.setAttribute('label','.064');
+    typeList.appendChild(type3);
+
+    var type4 = document.createElement("option");
+    type4.setAttribute('value','.081GA');
+    type4.setAttribute('label','.081');
+    typeList.appendChild(type4);
+
+    var type5 = document.createElement("option");
+    type5.setAttribute('value','.1.25GA');
+    type5.setAttribute('label','1.25');
+    typeList.appendChild(type5);
+
+    var type6 = document.createElement("option");
+    type6.setAttribute('value','16GA');
+    type6.setAttribute('label','16GA');
+    typeList.appendChild(type6);
+
+    var type7 = document.createElement("option");
+    type7.setAttribute('value','1/2PLY');
+    type7.setAttribute('label','1/2 PLY');
+    typeList.appendChild(type7);
+
+    var type8 = document.createElement("option");
+    type8.setAttribute('value','3/4MDO');
+    type8.setAttribute('label','3/4 MDO');
+    typeList.appendChild(type8);
+
+    var type9 = document.createElement("option");
+    type9.setAttribute('value','.090POLY');
+    type9.setAttribute('label','.090 POLY');
+    typeList.appendChild(type9);
 ///
 
     var newSignsNumberInput = document.createElement("input");
@@ -103,6 +142,11 @@ function newSign () {
 
 ///
 
+    var newWeightOutputContainer = document.createElement("div");
+    newWeightOutputContainer.setAttribute('id','weightOutputContainer');
+    newWeightContainer.appendChild(newWeightOutputContainer);
+
+///
     var newPlusContainer = document.createElement("div");
     newPlusContainer.setAttribute('id','plusContainer');
 
