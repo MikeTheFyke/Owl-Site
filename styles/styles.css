@@ -7,8 +7,9 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    height: 50px;
+    height: 70px;
     background-color: #E26125;
+    text-align: center;
 }
 
 #logo{
@@ -16,6 +17,7 @@ body{
     height: 50px;
     border-radius: 25px;
     background-color: #1947BA;
+    margin: 10px auto;
 }
 
 #weightContainer{
