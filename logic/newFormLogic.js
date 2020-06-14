@@ -127,8 +127,7 @@ function newSign () {
     type9.setAttribute('value','.090POLY');
     type9.setAttribute('label','.090 POLY');
     typeList.appendChild(type9);
-///
-
+/// WEIGHT INPUT
     var newSignsNumberInput = document.createElement("input");
     newSignsNumberInput.setAttribute('id','signsNumberInput');
     newSignsNumberInput.setAttribute('placeholder',"Enter amount of signs");
@@ -140,13 +139,22 @@ function newSign () {
     newSubmitButton.setAttribute('onclick','weightCalculator()');
     newSignForm.appendChild(newSubmitButton);
 
-///
-
+/// WEIGHT OUTPUT
     var newWeightOutputContainer = document.createElement("div");
     newWeightOutputContainer.setAttribute('id','weightOutputContainer');
     newWeightContainer.appendChild(newWeightOutputContainer);
 
-///
+    var newtotalWeightText = document.createElement("h1");
+    newtotalWeightText.setAttribute('id','totalWeightText');
+    newtotalWeightText.innerHTML = "Lbs.";
+    newWeightOutputContainer.appendChild(newtotalWeightText);
+
+    var newtotalWeight = document.createElement("h1");
+    newtotalWeight.setAttribute('id','totalWeight');
+    newtotalWeight.innerHTML = "0";
+    newWeightOutputContainer.appendChild(newtotalWeight);
+
+/// PLUS CONTAINER
     var newPlusContainer = document.createElement("div");
     newPlusContainer.setAttribute('id','plusContainer');
 
