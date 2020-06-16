@@ -42,3 +42,7 @@ function totalWeightAdd () {
     totalWeight += parseFloat(newWeight);
     document.getElementById("completeTotalWeight").innerHTML = totalWeight;
 }
+
+function totalWeightClear () {
+    document.getElementById("completeTotalWeight").innerhtml = 0;
+}

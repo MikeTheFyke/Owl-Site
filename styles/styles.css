@@ -106,6 +106,20 @@ body{
     height: 50px;
 }
 
+#minusButton{
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+    position: absolute;
+    bottom: 5px;
+    right: 220px;
+}
+
+#minus{
+    width: 30px;
+    height: 30px;
+}
+
 #plusContainer{
     position: relative;
     right: 5vw;
