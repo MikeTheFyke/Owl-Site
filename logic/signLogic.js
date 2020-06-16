@@ -44,7 +44,7 @@ function totalWeightAdd () {
     document.getElementById("signsSize").value = "30X30";
     document.getElementById("signsType").value = ".20GA";
     document.getElementById("totalWeight").innerHTML = 0;
-    document.getElementById("")
+    document.getElementById("signsNumberInput").value = "";
 }
 
 function totalWeightClear () {
