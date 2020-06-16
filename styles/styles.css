@@ -95,12 +95,29 @@ body{
     float: right;
 }
 
+#plusButton{
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+}
+
+#plus{
+    width: 50px;
+    height: 50px;
+}
+
 #plusContainer{
+    position: relative;
+    right: 5vw;
+    top: 30px;
     width: 50px;
     height: 50px;
     text-align: center;
     float: right;
     margin-top: 75px;
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
 }
 
 #plusSign{
