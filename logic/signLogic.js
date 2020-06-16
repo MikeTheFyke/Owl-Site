@@ -4,6 +4,8 @@ var signsType;
 var strUser;
 var strUser2;
 
+var totalWeight = 0;
+var newWeight = 0;
 
 function weightCalculator () {
     signsSize = document.getElementById("signsSize");
@@ -34,3 +36,9 @@ function weightCalculator () {
     document.getElementById("totalWeight").innerHTML = Math.round(calculateWeight);
 }
 
+function totalWeightAdd () {
+    newWeight = document.getElementById("totalWeight").innerHTML;
+    console.log(newWeight);
+    totalWeight += parseFloat(newWeight);
+    document.getElementById("completeTotalWeight").innerHTML = totalWeight;
+}
