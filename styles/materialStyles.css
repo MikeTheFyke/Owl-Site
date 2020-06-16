@@ -1,0 +1,53 @@
+#materialWeightContainer{
+    width: 700px;
+    display: inline-block;
+    margin: 20px auto;
+}
+#materialWeightInputContainer{
+    width: 700px;
+    height: 30px;
+    padding: 20px 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: #E26125;
+    color: white;
+    font-size: 20px;
+}
+
+#otherMaterial{
+    background-color: white;
+    outline: none;
+}
+
+#otherNumberInput{
+    outline: none;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+#materialWeightOutputContainer{
+    display: inline-block;
+    width: 694px;
+    height: 40px;
+    padding: 0px 10px;
+    background-color: white;
+    color: #1947BA;
+    border-style: solid;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-left-color: #1947BA;
+    border-right-color: #1947BA;
+    border-bottom-color: #1947BA;
+    border-top-color: transparent;
+}
+
+#materialTotalWeight{
+    margin: 0px;
+    float: right;
+    padding-right: 5px;
+}
+
+#materialTotalWeightText{
+    margin: 0px;
+    float: right;
+}

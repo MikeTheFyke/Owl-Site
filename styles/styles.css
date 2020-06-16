@@ -30,7 +30,8 @@ body{
 #weightContainer{
     width: 700px;
     display: inline-block;
-    margin-top: 75px;
+    margin: 75px auto 0px auto;
+
 }
 #weightInputContainer{
     width: 700px;
@@ -121,9 +122,9 @@ body{
 }
 
 #plusContainer{
-    position: relative;
-    right: 5vw;
-    top: 30px;
+    position: absolute;
+    right: 40px;
+    top: 50px;
     width: 50px;
     height: 50px;
     text-align: center;
