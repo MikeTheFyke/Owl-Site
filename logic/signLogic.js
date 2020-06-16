@@ -42,7 +42,9 @@ function totalWeightAdd () {
     totalWeight += parseFloat(newWeight);
     document.getElementById("completeTotalWeight").innerHTML = totalWeight;
     document.getElementById("signsSize").value = "30X30";
-    document.getElementById("signsType").value
+    document.getElementById("signsType").value = ".20GA";
+    document.getElementById("totalWeight").innerHTML = 0;
+    document.getElementById("")
 }
 
 function totalWeightClear () {
