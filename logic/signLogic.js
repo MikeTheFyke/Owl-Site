@@ -41,6 +41,8 @@ function totalWeightAdd () {
     console.log(newWeight);
     totalWeight += parseFloat(newWeight);
     document.getElementById("completeTotalWeight").innerHTML = totalWeight;
+    document.getElementById("signsSize").value = "30X30";
+    document.getElementById("signsType").value
 }
 
 function totalWeightClear () {
