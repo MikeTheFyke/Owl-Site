@@ -44,5 +44,5 @@ function totalWeightAdd () {
 }
 
 function totalWeightClear () {
-    document.getElementById("completeTotalWeight").innerhtml = 0;
+    document.getElementById("completeTotalWeight").innerHTML = 0;
 }
