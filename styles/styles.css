@@ -30,7 +30,7 @@ body{
 #weightContainer{
     width: 700px;
     display: inline-block;
-    margin: 75px auto 0px auto;
+    margin: 75px 100px 0px 100px;
 
 }
 #weightInputContainer{
