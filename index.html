@@ -46,6 +46,30 @@
                 <br></br>
             </form>
         </div>
+
+        <div id="materialWeightContainer">
+            <div id="materialWeightInputContainer">
+                <form onsubmit="event.preventDefault();" autocomplete="off">
+                    <label for="otherMaterial">Select a base type:</label>
+                        <select name="framesBases" id="otherMaterial">
+                            <option value="hBase">H Base</option>
+                            <option value="centerMount">Center Mount</option>
+                            <option value="offCenterMount">Off Center Mount</option>
+                            <option value="tireBase">TC-54 Tire Bases</option>
+                            <option value="barrels"> TC-54 Barrels</option>
+                            <option value="windMasters">WindMasters</option>
+                            <option value="flipMasters">FlipMasters</option>
+                            <option value="aFrame">A Frame</option>
+                        </select>
+                    <input id="otherNumberInput" placeholder="Enter amount of items">
+                    <button id="submitButton" onclick="weightCalculator2()">SUBMIT</button>
+                    <br></br>
+                </form>
+
+            </div>
+
+        </div>
+
         <div id="weightOutputContainer">
             <h1 id="totalWeightText">Lbs.</h1>
             <h1 id="totalWeight">0</h1>
