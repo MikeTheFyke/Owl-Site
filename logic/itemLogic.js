@@ -12,6 +12,7 @@ function weightCalculator2 () {
     if (userSelect = "centerMount"){ centerMount();}
     if (userSelect = "offCenterMount"){ offCenterMount();}
     if (userSelect = "tireBase"){ tireBase();}
+    if (userSelect = "barrels"){ barrels();}
 
     document.getElementById("materialTotalWeight").innerHTML = Math.round(calculateItemWeight);
 }
@@ -30,4 +31,8 @@ function offCenterMount (){
 
 function tireBase (){
     calculateItemWeight = 20.8 * numberOfItems;
+}
+
+function barrels (){
+    calculateItemWeight = 3.64 * numberOfItems;
 }
