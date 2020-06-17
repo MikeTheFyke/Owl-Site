@@ -14,6 +14,7 @@ function weightCalculator2 () {
     if (userSelect = "tireBase"){ tireBase();}
     if (userSelect = "barrels"){ barrels();}
     if (userSelect = "windMasters"){ barrels();}
+    if (userSelect = "flipMasters"){ barrels();}
 
     document.getElementById("materialTotalWeight").innerHTML = Math.round(calculateItemWeight);
 }
@@ -40,4 +41,8 @@ function barrels (){
 
 function windMasters (){
     calculateItemWeight = 32 * numberOfItems;
+}
+
+function flipMasters (){
+    calculateItemWeight = 24 * numberOfItems;
 }
