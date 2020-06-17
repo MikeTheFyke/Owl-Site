@@ -18,6 +18,7 @@ function weightCalculator2 () {
     if (userSelect = "aFrame"){ aFrame();}
     if (userSelect = "metalALeg"){ aLeg();}
     if (userSelect = "briteline"){ briteline();}
+    if (userSelect = "ssPaddle"){ ssPaddle();}
 
     document.getElementById("materialTotalWeight").innerHTML = Math.round(calculateItemWeight);
 }
@@ -60,4 +61,8 @@ function aLeg (){
 
 function briteline (){
     calculateItemWeight = 42 * numberOfItems;
+}
+
+function ssPaddle (){
+    calculateItemWeight = 4 * numberOfItems;
 }
