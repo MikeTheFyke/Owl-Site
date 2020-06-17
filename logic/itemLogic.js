@@ -13,8 +13,9 @@ function weightCalculator2 () {
     if (userSelect = "offCenterMount"){ offCenterMount();}
     if (userSelect = "tireBase"){ tireBase();}
     if (userSelect = "barrels"){ barrels();}
-    if (userSelect = "windMasters"){ barrels();}
-    if (userSelect = "flipMasters"){ barrels();}
+    if (userSelect = "windMasters"){ windMasters();}
+    if (userSelect = "flipMasters"){ flipMasters();}
+    if (userSelect = "aFrame"){ aFrame();}
 
     document.getElementById("materialTotalWeight").innerHTML = Math.round(calculateItemWeight);
 }
@@ -45,4 +46,8 @@ function windMasters (){
 
 function flipMasters (){
     calculateItemWeight = 24 * numberOfItems;
+}
+
+function aFrame (){
+    calculateItemWeight = 22 * numberOfItems;
 }
