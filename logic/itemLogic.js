@@ -9,6 +9,7 @@ function weightCalculator2 () {
     userSelect = otherMaterial.options[otherMaterial.selectedIndex].value;
 
     if (userSelect = "hBase"){ hBases();}
+    if (userSelect = "centerMount"){ centerMount();}
 
     document.getElementById("materialTotalWeight").innerHTML = Math.round(calculateItemWeight);
 }
@@ -16,3 +17,8 @@ function weightCalculator2 () {
 function hBases (){
     calculateItemWeight = 28 * numberOfItems;
 }
+
+function centerMount (){
+    calculateItemWeight = 16 * numberOfItems;
+}
+
