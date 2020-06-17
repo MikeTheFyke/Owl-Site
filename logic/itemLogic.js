@@ -16,6 +16,7 @@ function weightCalculator2 () {
     if (userSelect = "windMasters"){ windMasters();}
     if (userSelect = "flipMasters"){ flipMasters();}
     if (userSelect = "aFrame"){ aFrame();}
+    if (userSelect = "metalALeg"){ aLeg();}
 
     document.getElementById("materialTotalWeight").innerHTML = Math.round(calculateItemWeight);
 }
@@ -50,4 +51,8 @@ function flipMasters (){
 
 function aFrame (){
     calculateItemWeight = 22 * numberOfItems;
+}
+
+function aLeg (){
+    calculateItemWeight = 8 * numberOfItems;
 }
