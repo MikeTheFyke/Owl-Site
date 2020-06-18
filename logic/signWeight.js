@@ -40,30 +40,39 @@ function signs30X30() {
 function signs30X45 (){
     if (strUser2 == ".20GA"){
         calculateWeight = .43 * numberOfSigns;
+        document.getElementById("totalWeight").innerHTML = calculateWeight;
     }
     if (strUser2 == ".40GA"){
         calculateWeight = .86 * numberOfSigns;
+        document.getElementById("totalWeight").innerHTML = calculateWeight;
     }
     if (strUser2 == ".064GA"){
         calculateWeight = 1.35 * numberOfSigns;
+        document.getElementById("totalWeight").innerHTML = calculateWeight;
     }
     if (strUser2 == ".081GA"){
         calculateWeight = 1.71 * numberOfSigns;
+        document.getElementById("totalWeight").innerHTML = calculateWeight;
     }
     if (strUser2 == "1.25GA"){
         calculateWeight = 2.7 * numberOfSigns;
+        document.getElementById("totalWeight").innerHTML = calculateWeight;
     } 
     if (strUser2 == "16GA"){
         calculateWeight = 3.98 * numberOfSigns;
+        document.getElementById("totalWeight").innerHTML = calculateWeight;
     }
     if (strUser2 == "1/2PLY"){
         calculateWeight = 1.88 * numberOfSigns;
+        document.getElementById("totalWeight").innerHTML = calculateWeight;
     }
     if (strUser2 == "3/4MDO"){
         calculateWeight = 3.38 * numberOfSigns;
+        document.getElementById("totalWeight").innerHTML = calculateWeight;
     }
     if (strUser2 == ".090POLY"){
         calculateWeight = .75 * numberOfSigns;
+        document.getElementById("totalWeight").innerHTML = calculateWeight;
     } 
 }
 
