@@ -1,4 +1,4 @@
-var calculateWeight = 0;
+var calculatedWeight;
 var signsSizes;
 var signsType;
 var strUser;
@@ -18,9 +18,9 @@ function weightCalculator () {
     console.log(strUser)
     console.log(strUser2)
 
-    if (strUser = "30X30"){ signs30X30();}
-    if (strUser = "30X45"){ signs30X45();}
-    if (strUser = "30X60"){ signs30X60();}
+    if (strUser = "30X30"){ signs30X30 ();}
+    if (strUser = "30X45"){ signs30X45 ();}
+    if (strUser = "30X60"){ signs30X60 ();}
     if (strUser = "30X90"){ signs30X90 ();}
     if (strUser = "30X120"){ signs30X120 ();}
     if (strUser = "45X45"){ signs45X45 ();}
@@ -35,8 +35,6 @@ function weightCalculator () {
     if (strUser = "90X90"){ signs90X90 ();}
     if (strUser = "90X120"){ signs90X120 ();}
     if (strUser = "120X120"){ signs120X120 ();}
-
-    
 }
 
 function totalWeightAdd () {
