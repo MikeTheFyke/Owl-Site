@@ -15,6 +15,9 @@ function weightCalculator () {
     strUser = signsSize.options[signsSize.selectedIndex].value;
     strUser2 = signsType.options[signsType.selectedIndex].value;
 
+    console.log(strUser)
+    console.log(strUser2)
+
     if (strUser = "30X30"){ signs30X30();}
     if (strUser = "30X45"){ signs30X45();}
     if (strUser = "30X60"){ signs30X60();}
@@ -33,7 +36,7 @@ function weightCalculator () {
     if (strUser = "90X120"){ signs90X120 ();}
     if (strUser = "120X120"){ signs120X120 ();}
 
-    document.getElementById("totalWeight").innerHTML = Math.round(calculateWeight);
+    
 }
 
 function totalWeightAdd () {
