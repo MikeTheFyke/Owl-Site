@@ -43,7 +43,7 @@ function weightCalculator () {
         calculatedWeight = 2.65 * numberOfSigns;
         document.getElementById("totalWeight").innerHTML = calculatedWeight;
     }
-    if (strUser = "30X30" && strUser2 == "1/2POLY"){ 
+    if (strUser = "30X30" && strUser2 == "1/2PLY"){ 
         calculatedWeight = 1.25 * numberOfSigns;
         document.getElementById("totalWeight").innerHTML = calculatedWeight;
     }
