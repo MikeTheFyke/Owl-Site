@@ -71,39 +71,51 @@ function weightCalculator () {
     if (strUser = "30X120"){ 
 
     }
+/// 45X45 LOGIC
     if (strUser = "45X45"){ 
 
     }
+/// 45X60 LOGIC
     if (strUser = "45X60"){ 
 
     }
+/// 45X75 LOGIC
     if (strUser = "45X75"){ 
 
     }
+/// 45X90 LOGIC
     if (strUser = "45X90"){ 
 
     }
+/// 60X60 LOGIC
     if (strUser = "60X60"){ 
 
     }
+/// 60X75 LOGIC
     if (strUser = "60X75"){ 
 
     }
+/// 60X90 LOGIC
     if (strUser = "60X90"){ 
 
     }
+/// 75X75 LOGIC
     if (strUser = "75X75"){ 
 
     }
+/// 75X90 LOGIC
     if (strUser = "75X90"){ 
 
     }
+/// 90X90 LOGIC
     if (strUser = "90X90"){ 
 
     }
+/// 90X120 LOGIC
     if (strUser = "90X120"){ 
 
     }
+/// 120X120 LOGIC
     if (strUser = "120X120"){ 
 
     }
