@@ -1,5 +1,5 @@
 function signs30X30 () {
-    if (strUser2 = "30X30" && strUser2 == ".20GA"){
+    if (strUser = "30X30" && strUser2 == ".20GA"){
         calculatedWeight = 0.29 * numberOfSigns;
         document.getElementById("totalWeight").innerHTML = calculatedWeight;
     }
