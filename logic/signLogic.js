@@ -18,6 +18,7 @@ function weightCalculator () {
     console.log(strUser)
     console.log(strUser2)
 
+/// 30X30 LOGIC
     if (strUser = "30X30" && strUser2 == ".20GA"){ 
         calculatedWeight = 0.29 * numberOfSigns;
         document.getElementById("totalWeight").innerHTML = calculatedWeight;
@@ -54,16 +55,19 @@ function weightCalculator () {
         calculatedWeight = .75 * numberOfSigns;
         document.getElementById("totalWeight").innerHTML = calculatedWeight;
     }
-
+/// 30X45 LOGIC
     if (strUser = "30X45"){ 
 
     }
+/// 30X60 LOGIC
     if (strUser = "30X60"){ 
 
     }
+/// 30X90 LOGIC
     if (strUser = "30X90"){ 
 
     }
+/// 30X120 LOGIC
     if (strUser = "30X120"){ 
 
     }
