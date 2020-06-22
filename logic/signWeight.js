@@ -272,40 +272,5 @@ function signs75X90 (){
 }
 
 function signs90X90 (){
-    if (strUser2 == ".20GA"){
-        calculatedWeight = 2.59 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
-    }
-    if (strUser2 == ".40GA"){
-        calculatedWeight = 5.18 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
-    }
-    if (strUser2 == ".064GA"){
-        calculatedWeight = 8.11 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
-    }
-    if (strUser2 == ".081GA"){
-        calculatedWeight = 10.37 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
-    }
-    if (strUser2 == "1.25GA"){
-        calculatedWeight = 16.2 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
-    } 
-    if (strUser2 == "16GA"){
-        calculatedWeight = 23.35 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
-    }
-    if (strUser2 == "1/2PLY"){
-        calculatedWeight = 11.25 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
-    }
-    if (strUser2 == "3/4MDO"){
-        calculatedWeight = 20.25 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
-    }
-    if (strUser2 == ".090POLY"){
-        calculatedWeight = 4.5 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
-    } 
+
 }
