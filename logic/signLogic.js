@@ -303,9 +303,42 @@ function weightCalculator () {
 
     }
 /// 75X90 LOGIC
-    if (strUser = "75X90"){ 
-
+    if (strUser = "75X90" && strUser2 == ".20GA"){
+        calculatedWeight = 2.16 * numberOfSigns;
+        document.getElementById("totalWeight").innerHTML = calculatedWeight;
     }
+    if (strUser = "75X90" && strUser2 == ".40GA"){
+        calculatedWeight = 4.32 * numberOfSigns;
+        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    }
+    if (strUser = "75X90" && strUser2 == ".064GA"){
+        calculatedWeight = 6.3 * numberOfSigns;
+        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    }
+    if (strUser = "75X90" && strUser2 == ".081GA"){
+        calculatedWeight = 8.93 * numberOfSigns;
+        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    }
+    if (strUser = "75X90" && strUser2 == "1.25GA"){
+        calculatedWeight = 13.5 * numberOfSigns;
+        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    } 
+    if (strUser = "75X90" && strUser2 == "16GA"){
+        calculatedWeight = 19.04 * numberOfSigns;
+        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    }
+    if (strUser = "75X90" && strUser2 == "1/2PLY"){
+        calculatedWeight = 9.38 * numberOfSigns;
+        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    }
+    if (strUser = "75X90" && strUser2 == "3/4MDO"){
+        calculatedWeight = 16.88 * numberOfSigns;
+        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    }
+    if (strUser = "75X90" && strUser2 == ".090POLY"){
+        calculatedWeight = 3.75 * numberOfSigns;
+        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    } 
 /// 90X90 LOGIC
     if (strUser = "90X90" && strUser2 == ".20GA"){
         calculatedWeight = 2.59 * numberOfSigns;
