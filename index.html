@@ -13,7 +13,7 @@
             <img id="owlSight" src="./images/Owl_Sight.png">
         </div>
     </div>
-
+<!-- Sign Weight Calculator -->
     <div id="weightContainer">
         <div id="weightInputContainer">
             <form onsubmit="event.preventDefault();" autocomplete="off"> 
@@ -59,8 +59,12 @@
             <h1 id="totalWeightText">Lbs.</h1>
             <h1 id="totalWeight">0</h1>
         </div>
+        <!-- Plus sign weight to total Container -->
+        <div id="plusContainer">
+            <button id="plusButton" onclick="totalWeightAdd()"><img id="plus" src="./images/plus.png"></button>
+        </div>
     </div>
-
+<!-- Item Weight Calculator -->
     <div id="materialWeightContainer">
         <div id="materialWeightInputContainer">
             <form onsubmit="event.preventDefault();" autocomplete="off">
@@ -87,13 +91,13 @@
             <h1 id="materialTotalWeightText">Lbs.</h1>
             <h1 id="materialTotalWeight">0</h1>
         </div>
+        <!-- Plus sign weight to total Container -->
+        <div id="plusContainer">
+            <button id="plusButton" onclick="itemWeightAdd()"><img id="plus" src="./images/plus.png"></button>
+        </div>
     </div>
 
-    <div id="plusContainer">
-        <button id="plusButton" onclick="totalWeightAdd()"><img id="plus" src="./images/plus.png"></button>
-    </div>
-
-
+<!-- Total Weight Container -->
     <button id="minusButton"><img onclick="totalWeightClear()"id="minus" src="./images/minus.png"></button>
 
     <div id="totalWeightContainer">

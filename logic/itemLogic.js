@@ -26,3 +26,7 @@ function weightCalculator2 () {
     calculateItemWeight = baseUnitWeight * numberOfItems;
     document.getElementById("materialTotalWeight").innerHTML = calculateItemWeight;
 }
+
+function itemWeightAdd () {
+    
+}
