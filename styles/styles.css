@@ -58,14 +58,74 @@ body{
     background-color: #E26125;
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid #1947BA;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
     width: 80%;
 }
 
-.close{
-    color: black;
+#receiptDataContainer{
+    background-color: white;
+    border-radius: 15px;
+    height: 200px;
+    width: 100%;
+}
+
+#receiptItems{
+    color: #1947BA;
+    font-size: 24px;
+    float: left;
+    margin: 10px;
+}
+
+#receiptItemsWeights{
+    color: #1947BA;
+    font-size: 24px;
     float: right;
-    font-size: 28px;
+    margin: 10px;
+}
+
+#listedItemsContainer{
+    position: relative;
+    float:left;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+
+#itemsList {
+    color: #E26125;
+    font-size: 24px;
+    float: left;
+    margin: 10px;
+}
+
+#totalsContainer{
+    position: relative;
+    float:left;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+
+#receiptTotalWeight{
+    color: #1947BA;
+    font-size: 24px;
+    float: right;
+    margin: 10px;
+}
+
+#receiptTotalText{
+    color: #1947BA;
+    font-size: 24px;
+    float: right;
+    margin: 10px;
+}
+
+
+.close{
+    color: #1947BA;
+    float: right;
+    font-size: 32px;
     font-weight: bold;
 }
 
@@ -74,4 +134,8 @@ body{
     color: white;
     text-decoration: none;
     cursor: pointer;
+}
+
+#modalHeader {
+    color: white;
 }
