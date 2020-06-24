@@ -59,3 +59,17 @@ body{
     padding: 20px;
     border: 1px solid #1947BA;;
 }
+
+.close{
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
