@@ -26,3 +26,17 @@ body{
     height: 65px;
     margin: 5px auto;
 }
+
+#receiptButton{
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+    position: absolute;
+    bottom: 75px;
+    right: 20px;
+}
+
+#receipt{
+    width: 75px;
+    height: 75px;
+}
