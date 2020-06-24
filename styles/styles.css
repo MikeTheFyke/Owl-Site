@@ -54,6 +54,11 @@ body{
     outline: none;
 }
 
+#mountedType{
+    background-color: white;
+    outline: none;
+}
+
 #signsNumberInput{
     outline: none;
     border-radius: 5px;
