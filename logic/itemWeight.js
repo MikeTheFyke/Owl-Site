@@ -1,43 +1,43 @@
 function hBases () {
-    calculateItemWeight = 28 * numberOfItems;
+    baseUnitWeight = 28 ;
 }
 
 function centerMounts (){
-    calculateItemWeight = 16 * numberOfItems;
+    baseUnitWeight = 16 ;
 }
 
 function offCenterMounts (){
-    calculateItemWeight = 16 * numberOfItems;
+    baseUnitWeight = 16 ;
 }
 
 function tireBases (){
-    calculateItemWeight = 20.8 * numberOfItems;
+    baseUnitWeight = 20.8 ;
 }
 
 function barrels (){
-    calculateItemWeight = 3.64 * numberOfItems;
+    baseUnitWeight = 3.64 ;
 }
 
 function windMasters (){
-    calculateItemWeight = 32 * numberOfItems;
+    baseUnitWeight = 32 ;
 }
 
 function flipMasters (){
-    calculateItemWeight = 24 * numberOfItems;
+    baseUnitWeight = 24 ;
 }
 
 function aFrames (){
-    calculateItemWeight = 22 * numberOfItems;
+    baseUnitWeight = 22 ;
 }
 
 function aLegs (){
-    calculateItemWeight = 8 * numberOfItems;
+    baseUnitWeight = 8 ;
 }
 
 function britelines (){
-    calculateItemWeight = 42 * numberOfItems;
+    baseUnitWeight = 42 ;
 }
 
 function ssPaddles (){
-    calculateItemWeight = 4 * numberOfItems;
+    baseUnitWeight = 4 ;
 }
