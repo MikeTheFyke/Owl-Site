@@ -54,7 +54,7 @@ function weightCalculator () {
     }
 
     calculatedWeight = (signUnitWeight * numberOfSigns) + (mountWeight * numberOfSigns) ;
-    document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    document.getElementById("totalWeight").innerHTML = Math.round(calculatedWeight * 100) / 100;
 }
 
 function totalWeightAdd () {
