@@ -6,647 +6,504 @@ function signs30X30 () {
         signUnitWeight = 0.58;    
     }
     else if (strUser2 == ".064GA"){
-        calculatedWeight = 0.901;
+        signUnitWeight = 0.901;
     } 
     else if (strUser2 == ".081GA"){
-        calculatedWeight = 1.41;
+        signUnitWeight = 1.41;
     } 
     else if (strUser2 == "1.25GA"){
-        calculatedWeight = 1.8;
+        signUnitWeight = 1.8;
     } 
     else if (strUser2 == "16GA"){
-        calculatedWeight = 2.65;
+        signUnitWeight = 2.65;
     }
     else if (strUser2 == "1/2PLY"){
-        calculatedWeight = 1.25;
+        signUnitWeight = 1.25;
     }
     else if (strUser2 == "3/4MDO"){
-        calculatedWeight = 2.25;
+        signUnitWeight = 2.25;
     }
     else if (strUser2 == ".090POLY"){
-        calculatedWeight = .75;
+        signUnitWeight = .75;
     }    
 }
 
 function signs30X45 (){
     if (strUser2 == ".20GA"){
-        calculatedWeight = .43 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+        signUnitWeight = .43 ;
     }
-    if (strUser2 == ".40GA"){
-        calculatedWeight = .86 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".40GA"){
+        signUnitWeight = .86 ;
     }
-    if (strUser2 == ".064GA"){
-        calculatedWeight = 1.35 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".064GA"){
+        signUnitWeight = 1.35 ;
     }
-    if (strUser2 == ".081GA"){
-        calculatedWeight = 1.71 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".081GA"){
+        signUnitWeight = 1.71 ;
     }
-    if (strUser2 == "1.25GA"){
-        calculatedWeight = 2.7 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1.25GA"){
+        signUnitWeight = 2.7 ;
     } 
-    if (strUser2 == "16GA"){
-        calculatedWeight = 3.98 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "16GA"){
+        signUnitWeight = 3.98 ;
     }
-    if (strUser2 == "1/2PLY"){
-        calculatedWeight = 1.88 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1/2PLY"){
+        signUnitWeight = 1.88 ;
     }
-    if (strUser2 == "3/4MDO"){
-        calculatedWeight = 3.38 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "3/4MDO"){
+        signUnitWeight = 3.38 ;
     }
-    if (strUser2 == ".090POLY"){
-        calculatedWeight = .75 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".090POLY"){
+        signUnitWeight = .75 ;
     } 
 }
 
 function signs30X60 (){
     if (strUser2 == ".20GA"){
-        calculatedWeight = .58 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+        signUnitWeight = .58 ;
     }
-    if (strUser2 == ".40GA"){
-        calculatedWeight = 1.15 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".40GA"){
+        signUnitWeight = 1.15 ;
     }
-    if (strUser2 == ".064GA"){
-        calculatedWeight = 1.8 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".064GA"){
+        signUnitWeight = 1.8 ;
     }
-    if (strUser2 == ".081GA"){
-        calculatedWeight = 2.26 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".081GA"){
+        signUnitWeight = 2.26 ;
     }
-    if (strUser2 == "1.25GA"){
-        calculatedWeight = 3.6 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1.25GA"){
+        signUnitWeight = 3.6 ;
     } 
-    if (strUser2 == "16GA"){
-        calculatedWeight = 5.3 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "16GA"){
+        signUnitWeight = 5.3 ;
     }
-    if (strUser2 == "1/2PLY"){
-        calculatedWeight = 2.5 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1/2PLY"){
+        signUnitWeight = 2.5 ;
     }
-    if (strUser2 == "3/4MDO"){
-        calculatedWeight = 4.5 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "3/4MDO"){
+        signUnitWeight = 4.5 ;
     }
-    if (strUser2 == ".090POLY"){
-        calculatedWeight = 1 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".090POLY"){
+        signUnitWeight = 1 ;
+        
     } 
 }
 
 function signs30X90 (){
     if (strUser2 == ".20GA"){
-        calculatedWeight = .36 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+        signUnitWeight = .36 ;
     }
-    if (strUser2 == ".40GA"){
-        calculatedWeight = 1.73 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".40GA"){
+        signUnitWeight = 1.73 ;
     }
-    if (strUser2 == ".064GA"){
-        calculatedWeight = 2.7 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".064GA"){
+        signUnitWeight = 2.7 ;
     }
-    if (strUser2 == ".081GA"){
-        calculatedWeight = 3.42 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".081GA"){
+        signUnitWeight = 3.42 ;
     }
-    if (strUser2 == "1.25GA"){
-        calculatedWeight = 5.4 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1.25GA"){
+        signUnitWeight = 5.4 ;
     } 
-    if (strUser2 == "16GA"){
-        calculatedWeight = 7.9 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "16GA"){
+        signUnitWeight = 7.9 ;
     }
-    if (strUser2 == "1/2PLY"){
-        calculatedWeight = 3.75 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1/2PLY"){
+        signUnitWeight = 3.75 ;
     }
-    if (strUser2 == "3/4MDO"){
-        calculatedWeight = 6.75 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "3/4MDO"){
+        signUnitWeight = 6.75 ;
     }
-    if (strUser2 == ".090POLY"){
-        calculatedWeight = 1.5 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".090POLY"){
+        signUnitWeight = 1.5 ;
     } 
 }
 
 function signs30X120 (){
     if (strUser2 == ".20GA"){
-        calculatedWeight = 1.15 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+        signUnitWeight = 1.15 ;
     }
-    if (strUser2 == ".40GA"){
-        calculatedWeight = 2.3 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".40GA"){
+        signUnitWeight = 2.3 ;
     }
-    if (strUser2 == ".064GA"){
-        calculatedWeight = 3.63 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".064GA"){
+        signUnitWeight = 3.63 ;
     }
-    if (strUser2 == ".081GA"){
-        calculatedWeight = 4.6 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".081GA"){
+        signUnitWeight = 4.6 ;
     }
-    if (strUser2 == "1.25GA"){
-        calculatedWeight = 7.2 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1.25GA"){
+        signUnitWeight = 7.2 ;
     } 
-    if (strUser2 == "16GA"){
-        calculatedWeight = 10.92 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "16GA"){
+        signUnitWeight = 10.92 ;
     }
-    if (strUser2 == "1/2PLY"){
-        calculatedWeight = 5 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1/2PLY"){
+        signUnitWeight = 5 ;
     }
-    if (strUser2 == "3/4MDO"){
-        calculatedWeight = 9 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "3/4MDO"){
+        signUnitWeight = 9 ;
     }
-    if (strUser2 == ".090POLY"){
-        calculatedWeight = 2 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".090POLY"){
+        signUnitWeight = 2 ;
     } 
 }
 
 function signs45X45 (){
     if (strUser2 == ".20GA"){
-        calculatedWeight = .65 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+        signUnitWeight = .65 ;
     }
-    if (strUser2 == ".40GA"){
-        calculatedWeight = 1.3 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".40GA"){
+        signUnitWeight = 1.3 ;
     }
-    if (strUser2 == ".064GA"){
-        calculatedWeight = 2.03 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".064GA"){
+        signUnitWeight = 2.03 ;
     }
-    if (strUser2 == ".081GA"){
-        calculatedWeight = 2.57 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".081GA"){
+        signUnitWeight = 2.57 ;
     }
-    if (strUser2 == "1.25GA"){
-        calculatedWeight = 4.05 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1.25GA"){
+        signUnitWeight = 4.05 ;
     } 
-    if (strUser2 == "16GA"){
-        calculatedWeight = 5.96 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "16GA"){
+        signUnitWeight = 5.96 ;
     }
-    if (strUser2 == "1/2PLY"){
-        calculatedWeight = 2.81 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1/2PLY"){
+        signUnitWeight = 2.81 ;
     }
-    if (strUser2 == "3/4MDO"){
-        calculatedWeight = 5.06 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "3/4MDO"){
+        signUnitWeight = 5.06 ;
     }
-    if (strUser2 == ".090POLY"){
-        calculatedWeight = 1.13 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".090POLY"){
+        signUnitWeight = 1.13 ;
     } 
 }
 
 function signs45X60 (){
     if (strUser2 == ".20GA"){
-        calculatedWeight = .85 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+        signUnitWeight = .85 ;
     }
-    if (strUser2 == ".40GA"){
-        calculatedWeight = 1.73 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".40GA"){
+        signUnitWeight = 1.73 ;
     }
-    if (strUser2 == ".064GA"){
-        calculatedWeight = 2.7 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".064GA"){
+        signUnitWeight = 2.7 ;
     }
-    if (strUser2 == ".081GA"){
-        calculatedWeight = 3.42 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".081GA"){
+        signUnitWeight = 3.42 ;
     }
-    if (strUser2 == "1.25GA"){
-        calculatedWeight = 5.4 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1.25GA"){
+        signUnitWeight = 5.4 ;
     } 
-    if (strUser2 == "16GA"){
-        calculatedWeight = 7.9 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "16GA"){
+        signUnitWeight = 7.9 ;
     }
-    if (strUser2 == "1/2PLY"){
-        calculatedWeight = 3.75 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1/2PLY"){
+        signUnitWeight = 3.75 ;
     }
-    if (strUser2 == "3/4MDO"){
-        calculatedWeight = 6.75 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "3/4MDO"){
+        signUnitWeight = 6.75 ;
     }
-    if (strUser2 == ".090POLY"){
-        calculatedWeight = 1.5 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".090POLY"){
+        signUnitWeight = 1.5 ;
     } 
 }
 
 function signs45X75 (){
     if (strUser2 == ".20GA"){
-        calculatedWeight = 1.08 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+        signUnitWeight = 1.08 ;
     }
-    if (strUser2 == ".40GA"){
-        calculatedWeight = 2.16 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".40GA"){
+        signUnitWeight = 2.16 ;
     }
-    if (strUser2 == ".064GA"){
-        calculatedWeight = 3.38 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".064GA"){
+        signUnitWeight = 3.38 ;
     }
-    if (strUser2 == ".081GA"){
-        calculatedWeight = 4.28 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".081GA"){
+        signUnitWeight = 4.28 ;
     }
-    if (strUser2 == "1.25GA"){
-        calculatedWeight = 6.75 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1.25GA"){
+        signUnitWeight = 6.75 ;
     } 
-    if (strUser2 == "16GA"){
-        calculatedWeight = 9.94 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "16GA"){
+        signUnitWeight = 9.94 ;
     }
-    if (strUser2 == "1/2PLY"){
-        calculatedWeight = 4.69 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1/2PLY"){
+        signUnitWeight = 4.69 ;
     }
-    if (strUser2 == "3/4MDO"){
-        calculatedWeight = 8.44 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "3/4MDO"){
+        signUnitWeight = 8.44 ;
     }
-    if (strUser2 == ".090POLY"){
-        calculatedWeight = 1.88 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".090POLY"){
+        signUnitWeight = 1.88 ;
     } 
 }
 
 function signs45X90 (){
     if (strUser2 == ".20GA"){
-        calculatedWeight = 1.3 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+        signUnitWeight = 1.3 ;
     }
-    if (strUser2 == ".40GA"){
-        calculatedWeight = 2.59 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".40GA"){
+        signUnitWeight = 2.59 ;
     }
-    if (strUser2 == ".064GA"){
-        calculatedWeight = 4.05 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".064GA"){
+        signUnitWeight = 4.05 ;
     }
-    if (strUser2 == ".081GA"){
-        calculatedWeight = 5.14 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".081GA"){
+        signUnitWeight = 5.14 ;
     }
-    if (strUser2 == "1.25GA"){
-        calculatedWeight = 8.1 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1.25GA"){
+        signUnitWeight = 8.1 ;
     } 
-    if (strUser2 == "16GA"){
-        calculatedWeight = 11.93 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "16GA"){
+        signUnitWeight = 11.93 ;
     }
-    if (strUser2 == "1/2PLY"){
-        calculatedWeight = 5.63 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1/2PLY"){
+        signUnitWeight = 5.63 ;
     }
-    if (strUser2 == "3/4MDO"){
-        calculatedWeight = 10.13 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "3/4MDO"){
+        signUnitWeight = 10.13 ;
     }
-    if (strUser2 == ".090POLY"){
-        calculatedWeight = 2.25 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".090POLY"){
+        signUnitWeight = 2.25 ;
     } 
 }
 
 function signs60X60 (){
     if (strUser2 == ".20GA"){
-        calculatedWeight = 1.15 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+        signUnitWeight = 1.15 ;
     }
-    if (strUser2 == ".40GA"){
-        calculatedWeight = 2.3 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".40GA"){
+        signUnitWeight = 2.3 ;
     }
-    if (strUser2 == ".064GA"){
-        calculatedWeight = 3.6 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".064GA"){
+        signUnitWeight = 3.6 ;
     }
-    if (strUser2 == ".081GA"){
-        calculatedWeight = 5.64 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".081GA"){
+        signUnitWeight = 5.64 ;
     }
-    if (strUser2 == "1.25GA"){
-        calculatedWeight = 7.2 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1.25GA"){
+        signUnitWeight = 7.2 ;
     } 
-    if (strUser2 == "16GA"){
-        calculatedWeight = 10.6 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "16GA"){
+        signUnitWeight = 10.6 ;
     }
-    if (strUser2 == "1/2PLY"){
-        calculatedWeight = 5 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1/2PLY"){
+        signUnitWeight = 5 ;
     }
-    if (strUser2 == "3/4MDO"){
-        calculatedWeight = 9 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "3/4MDO"){
+        signUnitWeight = 9 ;
     }
-    if (strUser2 == ".090POLY"){
-        calculatedWeight = 2 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".090POLY"){
+        signUnitWeight = 2 ;
     } 
 }
 
 function signs60X75 (){
     if (strUser2 == ".20GA"){
-        calculatedWeight = 1.44 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+        signUnitWeight = 1.44 ;
     }
-    if (strUser2 == ".40GA"){
-        calculatedWeight = 2.88 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".40GA"){
+        signUnitWeight = 2.88 ;
     }
-    if (strUser2 == ".064GA"){
-        calculatedWeight = 4.5 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".064GA"){
+        signUnitWeight = 4.5 ;
     }
-    if (strUser2 == ".081GA"){
-        calculatedWeight = 5.7 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".081GA"){
+        signUnitWeight = 5.7 ;
     }
-    if (strUser2 == "1.25GA"){
-        calculatedWeight = 9 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1.25GA"){
+        signUnitWeight = 9 ;
     } 
-    if (strUser2 == "16GA"){
-        calculatedWeight = 13.25 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "16GA"){
+        signUnitWeight = 13.25 ;
     }
-    if (strUser2 == "1/2PLY"){
-        calculatedWeight = 6.25 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1/2PLY"){
+        signUnitWeight = 6.25 ;
     }
-    if (strUser2 == "3/4MDO"){
-        calculatedWeight = 11.25 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "3/4MDO"){
+        signUnitWeight = 11.25 ;
     }
-    if (strUser2 == ".090POLY"){
-        calculatedWeight = 2.5 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".090POLY"){
+        signUnitWeight = 2.5 ;
     } 
 }
 
 function signs60X90 (){
     if (strUser2 == ".20GA"){
-        calculatedWeight = 1.73 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+        signUnitWeight = 1.73 ;
     }
-    if (strUser2 == ".40GA"){
-        calculatedWeight = 3.46 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".40GA"){
+        signUnitWeight = 3.46 ;
     }
-    if (strUser2 == ".064GA"){
-        calculatedWeight = 5.41 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".064GA"){
+        signUnitWeight = 5.41 ;
     }
-    if (strUser2 == ".081GA"){
-        calculatedWeight = 6.85 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".081GA"){
+        signUnitWeight = 6.85 ;
     }
-    if (strUser2 == "1.25GA"){
-        calculatedWeight = 10.8 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1.25GA"){
+        signUnitWeight = 10.8 ;
     } 
-    if (strUser2 == "16GA"){
-        calculatedWeight = 15.9 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "16GA"){
+        signUnitWeight = 15.9 ;
     }
-    if (strUser2 == "1/2PLY"){
-        calculatedWeight = 7.5 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1/2PLY"){
+        signUnitWeight = 7.5 ;
     }
-    if (strUser2 == "3/4MDO"){
-        calculatedWeight = 13.5 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "3/4MDO"){
+        signUnitWeight = 13.5 ;
     }
-    if (strUser2 == ".090POLY"){
-        calculatedWeight = 3 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".090POLY"){
+        signUnitWeight = 3 ;
     } 
 }
 
 function signs75X75 (){
     if (strUser2 == ".20GA"){
-        calculatedWeight = 1.9 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+        signUnitWeight = 1.9 ;
     }
-    if (strUser2 == ".40GA"){
-        calculatedWeight = 3.6 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".40GA"){
+        signUnitWeight = 3.6 ;
     }
-    if (strUser2 == ".064GA"){
-        calculatedWeight = 5.63 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".064GA"){
+        signUnitWeight = 5.63 ;
     }
-    if (strUser2 == ".081GA"){
-        calculatedWeight = 8.7 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".081GA"){
+        signUnitWeight = 8.7 ;
     }
-    if (strUser2 == "1.25GA"){
-        calculatedWeight = 11.25 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1.25GA"){
+        signUnitWeight = 11.25 ;
     } 
-    if (strUser2 == "16GA"){
-        calculatedWeight = 16.56 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "16GA"){
+        signUnitWeight = 16.56 ;
     }
-    if (strUser2 == "1/2PLY"){
-        calculatedWeight = 7.81 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1/2PLY"){
+        signUnitWeight = 7.81 ;
     }
-    if (strUser2 == "3/4MDO"){
-        calculatedWeight = 14.06 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "3/4MDO"){
+        signUnitWeight = 14.06 ;
     }
-    if (strUser2 == ".090POLY"){
-        calculatedWeight = 3.13 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".090POLY"){
+        signUnitWeight = 3.13 ;
     } 
 }
 
 function signs75X90 (){
     if (strUser2 == ".20GA"){
-        calculatedWeight = 2.16 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+        signUnitWeight = 2.16 ;
     }
-    if (strUser2 == ".40GA"){
-        calculatedWeight = 4.32 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".40GA"){
+        signUnitWeight = 4.32 ;
     }
-    if (strUser2 == ".064GA"){
-        calculatedWeight = 6.3 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".064GA"){
+        signUnitWeight = 6.3 ;
     }
-    if (strUser2 == ".081GA"){
-        calculatedWeight = 8.93 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".081GA"){
+        signUnitWeight = 8.93 ;
     }
-    if (strUser2 == "1.25GA"){
-        calculatedWeight = 13.5 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1.25GA"){
+        signUnitWeight = 13.5 ;
     } 
-    if (strUser2 == "16GA"){
-        calculatedWeight = 19.04 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "16GA"){
+        signUnitWeight = 19.04 ;
     }
-    if (strUser2 == "1/2PLY"){
-        calculatedWeight = 9.38 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1/2PLY"){
+        signUnitWeight = 9.38 ;
     }
-    if (strUser2 == "3/4MDO"){
-        calculatedWeight = 16.88 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "3/4MDO"){
+        signUnitWeight = 16.88 ;
     }
-    if (strUser2 == ".090POLY"){
-        calculatedWeight = 3.75 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".090POLY"){
+        signUnitWeight = 3.75 ;
     } 
 }
 
 function signs90X90 (){
     if (strUser2 == ".20GA"){
-        calculatedWeight = 2.59 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+        signUnitWeight = 2.59 ;
     }
-    if (strUser2 == ".40GA"){
-        calculatedWeight = 5.18 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".40GA"){
+        signUnitWeight = 5.18 ;
     }
-    if (strUser2 == ".064GA"){
-        calculatedWeight = 8.11 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".064GA"){
+        signUnitWeight = 8.11 ;
     }
-    if (strUser2 == ".081GA"){
-        calculatedWeight = 10.37 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".081GA"){
+        signUnitWeight = 10.37 ;
     }
-    if (strUser2 == "1.25GA"){
-        calculatedWeight = 16.2 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1.25GA"){
+        signUnitWeight = 16.2 ;
     } 
-    if (strUser2 == "16GA"){
-        calculatedWeight = 23.35 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "16GA"){
+        signUnitWeight = 23.35 ;
     }
-    if (strUser2 == "1/2PLY"){
-        calculatedWeight = 11.25 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1/2PLY"){
+        signUnitWeight = 11.25 ;
     }
-    if (strUser2 == "3/4MDO"){
-        calculatedWeight = 20.25 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "3/4MDO"){
+        signUnitWeight = 20.25 ;
     }
-    if (strUser2 == ".090POLY"){
-        calculatedWeight = 4.5 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".090POLY"){
+        signUnitWeight = 4.5 ;
     } 
 }
 function signs90X120 (){
     if (strUser2 == ".20GA"){
-        calculatedWeight = 3.46 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+        signUnitWeight = 3.46 ;
     }
-    if (strUser2 == ".40GA"){
-        calculatedWeight = 6.91 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".40GA"){
+        signUnitWeight = 6.91 ;
     }
-    if (strUser2 == ".064GA"){
-        calculatedWeight = 10.31 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".064GA"){
+        signUnitWeight = 10.31 ;   
     }
-    if (strUser2 == ".081GA"){
-        calculatedWeight = 13.63 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".081GA"){
+        signUnitWeight = 13.63 ;
     }
-    if (strUser2 == "1.25GA"){
-        calculatedWeight = 21.5 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1.25GA"){
+        signUnitWeight = 21.5 ;
     } 
-    if (strUser2 == "16GA"){
-        calculatedWeight = 31.8 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "16GA"){
+        signUnitWeight = 31.8 ;
     }
-    if (strUser2 == "1/2PLY"){
-        calculatedWeight = 15 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1/2PLY"){
+        signUnitWeight = 15 ;
     }
-    if (strUser2 == "3/4MDO"){
-        calculatedWeight = 27 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "3/4MDO"){
+        signUnitWeight = 27 ;
     }
-    if (strUser2 == ".090POLY"){
-        calculatedWeight = 6 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".090POLY"){
+        signUnitWeight = 6 ;
     } 
 }
 
 function signs120X120 (){
     if (strUser2 == ".20GA"){
-        calculatedWeight = 4.61 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+        signUnitWeight = 4.61 ;
     }
-    if (strUser2 == ".40GA"){
-        calculatedWeight = 9.22 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".40GA"){
+        signUnitWeight = 9.22 ;
     }
-    if (strUser2 == ".064GA"){
-        calculatedWeight = 14.14 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".064GA"){
+        signUnitWeight = 14.14 ;
     }
-    if (strUser2 == ".081GA"){
-        calculatedWeight = 18.26 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".081GA"){
+        signUnitWeight = 18.26 ;
     }
-    if (strUser2 == "1.25GA"){
-        calculatedWeight = 28.8 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1.25GA"){
+        signUnitWeight = 28.8 ;
     } 
-    if (strUser2 == "16GA"){
-        calculatedWeight = 42.4 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "16GA"){
+        signUnitWeight = 42.4 ;
     }
-    if (strUser2 == "1/2PLY"){
-        calculatedWeight = 20 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "1/2PLY"){
+        signUnitWeight = 20 ;
     }
-    if (strUser2 == "3/4MDO"){
-        calculatedWeight = 36 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == "3/4MDO"){
+        signUnitWeight = 36 ;
     }
-    if (strUser2 == ".090POLY"){
-        calculatedWeight = 8 * numberOfSigns;
-        document.getElementById("totalWeight").innerHTML = calculatedWeight;
+    else if (strUser2 == ".090POLY"){
+        signUnitWeight = 8 ;
     } 
 }
