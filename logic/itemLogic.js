@@ -5,6 +5,8 @@ var userSelect;
 
 var baseUnitWeight;
 
+var newItemWeight;
+
 function weightCalculator2 () {
     otherMaterial = document.getElementById("otherMaterial");
     numberOfItems = document.getElementById("otherNumberInput").value;
@@ -28,5 +30,11 @@ function weightCalculator2 () {
 }
 
 function itemWeightAdd () {
-    
+    newItemWeight = document.getElementById("materialTotalWeight").innerHTML;
+    console.log("New Item Weight :" + newItemWeight);
+    signTotalWeight += parseFloat(newItemWeight);
+    document.getElementById("completeTotalWeight").innerHTML = signTotalWeight;
+    document.getElementById("otherMaterial").value = "hBase";
+    document.getElementById("materialTotalWeight").innerHTML = 0;
+    document.getElementById("otherNumberInput").value = "";
 }
