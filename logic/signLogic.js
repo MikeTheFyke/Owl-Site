@@ -5,7 +5,7 @@ var strUser;
 var strUser2;
 var signUnitWeight;
 
-var totalWeight = 0;
+var signTotalWeight = 0;
 var newWeight = 0;
 
 function weightCalculator () {
@@ -48,8 +48,8 @@ function weightCalculator () {
 function totalWeightAdd () {
     newWeight = document.getElementById("totalWeight").innerHTML;
     console.log("New Sign Weight :" + newWeight);
-    totalWeight += parseFloat(newWeight);
-    document.getElementById("completeTotalWeight").innerHTML = totalWeight;
+    signTotalWeight += parseFloat(newWeight);
+    document.getElementById("completeTotalWeight").innerHTML = signTotalWeight;
     document.getElementById("signsSize").value = "30X30";
     document.getElementById("signsType").value = ".20GA";
     document.getElementById("totalWeight").innerHTML = 0;
