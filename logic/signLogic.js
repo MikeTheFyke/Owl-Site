@@ -3,6 +3,7 @@ var signsSizes;
 var signsType;
 var strUser;
 var strUser2;
+var signUnitWeight;
 
 var totalWeight = 0;
 var newWeight = 0;
@@ -39,6 +40,9 @@ function weightCalculator () {
     if (strUser = "90X90"){ signs90X90 ();}
     if (strUser = "90X120"){ signs90X120 ();}
     if (strUser = "120X120"){ signs120X120 ();}
+
+    calculatedWeight = signUnitWeight * numberOfSigns;
+    document.getElementById("totalWeight").innerHTML = calculatedWeight;
 }
 
 function totalWeightAdd () {
