@@ -10,16 +10,17 @@ function weightCalculator2 () {
     userSelect = otherMaterial.options[otherMaterial.selectedIndex].value;
     
     if (userSelect = "hBase"){ hBases ();}
-    if (userSelect = "centerMount"){ centerMounts ();}
-    if (userSelect = "offCenterMount"){ offCenterMounts ();}
-    if (userSelect = "tireBase"){ tireBases ();}
-    if (userSelect = "barrels"){ barrels ();}
-    if (userSelect = "windMasters"){ windMasters ();}
-    if (userSelect = "flipMasters"){ flipMasters ();}
-    if (userSelect = "aFrame"){ aFrames ();}
-    if (userSelect = "metalALeg"){ aLegs ();}
-    if (userSelect = "briteline"){ britelines ();}
-    if (userSelect = "ssPaddle"){ ssPaddles ();}
+    else if (userSelect = "centerMount"){ centerMounts ();}
+    else if (userSelect = "offCenterMount"){ offCenterMounts ();}
+    else if (userSelect = "tireBase"){ tireBases ();}
+    else if (userSelect = "barrels"){ barrels ();}
+    else if (userSelect = "windMasters"){ windMasters ();}
+    else if (userSelect = "flipMasters"){ flipMasters ();}
+    else if (userSelect = "aFrame"){ aFrames ();}
+    else if (userSelect = "metalALeg"){ aLegs ();}
+    else if (userSelect = "briteline"){ britelines ();}
+    else if (userSelect = "ssPaddle"){ ssPaddles ();}
 
+    calculateItemWeight = baseUnitWeight * numberOfItems;
     document.getElementById("materialTotalWeight").innerHTML = Math.round(calculateItemWeight);
 }
