@@ -3,6 +3,8 @@ var otherMaterial;
 var numberOfItems;
 var userSelect;
 
+var baseUnitWeight;
+
 function weightCalculator2 () {
     otherMaterial = document.getElementById("otherMaterial");
     numberOfItems = document.getElementById("otherNumberInput").value;

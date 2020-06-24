@@ -1,7 +1,5 @@
 function hBases () {
-    console.log("Number Of Items :" + numberOfItems)
     calculateItemWeight = 28 * numberOfItems;
-    console.log("Calcualted New Item Weight : " + calculateItemWeight);
 }
 
 function centerMounts (){
