@@ -1,9 +1,12 @@
 var calculatedWeight;
 var signsSizes;
 var signsType;
+var mountedtype;
 var strUser;
 var strUser2;
+var strUser3;
 var signUnitWeight;
+var mountWeight;
 
 var signTotalWeight = 0;
 var newWeight = 0;
@@ -16,6 +19,7 @@ function weightCalculator () {
 
     strUser = signsSize.options[signsSize.selectedIndex].value;
     strUser2 = signsType.options[signsType.selectedIndex].value;
+    strUser3 = mountedType.options[mountedType.selectedIndex].value
 
     console.log(strUser)
     console.log(strUser2)
@@ -41,7 +45,15 @@ function weightCalculator () {
     else if (strUser == "90X120"){ signs90X120 ();}
     else if (strUser == "120X120"){ signs120X120 ();}
 
-    calculatedWeight = signUnitWeight * numberOfSigns;
+    if (strUser3 == "noMount"){
+        mountWeight = 0;
+    } else if (strUser3 == "dualMount"){
+        mountWeight = 16;
+    } else if (strUser3 == "singleMount"){
+        mountWeight = 4;
+    }
+
+    calculatedWeight = (signUnitWeight * numberOfSigns) + (mountWeight * numberOfSigns) ;
     document.getElementById("totalWeight").innerHTML = calculatedWeight;
 }
 
@@ -52,6 +64,7 @@ function totalWeightAdd () {
     document.getElementById("completeTotalWeight").innerHTML = signTotalWeight;
     document.getElementById("signsSize").value = "30X30";
     document.getElementById("signsType").value = ".20GA";
+    document.getElementById("mountedType").value = "noMount";
     document.getElementById("totalWeight").innerHTML = 0;
     document.getElementById("signsNumberInput").value = "";
 }
