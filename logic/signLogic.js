@@ -61,7 +61,7 @@ function totalWeightAdd () {
     newWeight = document.getElementById("totalWeight").innerHTML;
     console.log("New Sign Weight :" + newWeight);
     signTotalWeight += parseFloat(newWeight);
-    document.getElementById("completeTotalWeight").innerHTML = signTotalWeight;
+    document.getElementById("completeTotalWeight").innerHTML = Math.round(signTotalWeight * 100) / 100;
     document.getElementById("signsSize").value = "30X30";
     document.getElementById("signsType").value = ".20GA";
     document.getElementById("mountedType").value = "noMount";

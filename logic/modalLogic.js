@@ -2,7 +2,7 @@ var modal = document.getElementById("receiptModal");
 
 var btn = document.getElementById("receiptButton");
 
-var span = document.getElementByClassName("close")[0];
+var span = document.getElementsByClassName("close")[0];
 
 function openReceiptModal () {
     modal.style.display = "block";
