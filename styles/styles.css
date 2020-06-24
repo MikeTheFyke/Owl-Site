@@ -35,7 +35,7 @@ body{
 }
 #weightInputContainer{
     width: 700px;
-    height: 30px;
+    height: 40px;
     padding: 20px 10px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -101,6 +101,15 @@ body{
     float: right;
 }
 
+#plusContainer{
+    height: 30px;
+    text-align: center;
+    float: left;
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+}
+
 #plusButton{
     background-color: transparent;
     border-color: transparent;
@@ -108,8 +117,8 @@ body{
 }
 
 #plus{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 }
 
 #minusButton{
@@ -124,31 +133,6 @@ body{
 #minus{
     width: 30px;
     height: 30px;
-}
-
-#plusContainer{
-    position: absolute;
-    right: 40px;
-    top: 50px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    float: right;
-    margin-top: 75px;
-    background-color: transparent;
-    border-color: transparent;
-    outline: none;
-}
-
-#plusSign{
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    padding: 0px;
-    background-color: #1947BA;
-    color: white;
-    font-size: 40px;
-    outline: none;
 }
 
 #totalWeightContainer{
