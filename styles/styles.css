@@ -40,3 +40,19 @@ body{
     width: 75px;
     height: 75px;
 }
+
+.receiptModal{
+    display:none;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 25%;
+    width: 500px;
+    height: 500px;
+    overflow: auto;
+    background-color: white;
+}
+
+.modal-content{
+    
+}

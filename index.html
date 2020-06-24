@@ -107,7 +107,7 @@
     </div>
 
 <!-- Receipt Modal Button -->
-<button id="receiptButton"><img onclick="" id="receipt" src="./images/receipt.png"></button>
+<button id="receiptButton"><img onclick="openReceiptModal" id="receipt" src="./images/receipt.png"></button>
 
 <!-- Total Weight Container -->
     <button id="minusButton"><img onclick="totalWeightClear()"id="minus" src="./images/minus.png"></button>
@@ -115,6 +115,14 @@
     <div id="totalWeightContainer">
         <h1 id="completeWeightLbs">Lbs.</h1>
         <h1 id="completeTotalWeight">0</h1>
+    </div>
+
+    <div id="receiptModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Your weight receipt</p>
+        </div>
+
     </div>
 
 </body>
