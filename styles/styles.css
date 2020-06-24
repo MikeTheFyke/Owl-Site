@@ -72,6 +72,7 @@ body{
     border-radius: 5px;
     border-color: transparent;
     outline: none;
+    margin-top: 10px;
 }
 
 #weightOutputContainer{
