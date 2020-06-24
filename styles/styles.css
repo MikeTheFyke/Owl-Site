@@ -70,7 +70,7 @@ body{
 }
 
 .close:hover,
-.close:focus{
+.close:focus {
     color: white;
     text-decoration: none;
     cursor: pointer;
