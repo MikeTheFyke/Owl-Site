@@ -4,13 +4,16 @@ var btn = document.getElementById("receiptButton");
 
 var span = document.getElementsByClassName("close")[0];
 
-var receiptObjects= { name:"Sign",
-                      details="Not Mounted",
-                      weight="0"
+var receiptObjects= { name: "",
+                      details : "",
+                      weight : ""
 }
 
 function openReceiptModal () {
     modal.style.display = "block";
+    for ( x in receiptObjects ){
+        console.log(receiptObjects[x] + " ")
+    }
 }
 
 function closeReceiptModal() {
