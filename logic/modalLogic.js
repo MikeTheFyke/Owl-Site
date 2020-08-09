@@ -13,6 +13,7 @@ function openReceiptModal () {
     modal.style.display = "block";
     for ( x in receiptObjects ){
         console.log(receiptObjects[x] + " ")
+        document.getElementById("itemsList").innerHTML = receiptObjects.name + " " + receiptObjects.details + " " + receiptObjects.weight;
     }
 }
 
