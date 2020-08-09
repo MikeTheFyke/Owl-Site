@@ -4,6 +4,11 @@ var btn = document.getElementById("receiptButton");
 
 var span = document.getElementsByClassName("close")[0];
 
+var receiptObjects= { name:"Sign",
+                      details="Not Mounted",
+                      weight="0"
+}
+
 function openReceiptModal () {
     modal.style.display = "block";
 }
