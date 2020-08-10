@@ -4,8 +4,6 @@ var btn = document.getElementById("receiptButton");
 
 var span = document.getElementsByClassName("close")[0];
 
-var receiptItems = [];
-
 var receiptObjects= { name: "",
                       details : "",
                       weight : ""

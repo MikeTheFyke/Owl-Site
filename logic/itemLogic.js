@@ -33,6 +33,8 @@ function itemWeightAdd () {
     newItemWeight = document.getElementById("materialTotalWeight").innerHTML;
     console.log("New Item Weight :" + newItemWeight);
     signTotalWeight += parseFloat(newItemWeight);
+    receiptItems.push("Item",userSelect,numberOfItems,calculateItemWeight);
+    console.log(receiptItems);
     document.getElementById("completeTotalWeight").innerHTML = signTotalWeight;
     document.getElementById("otherMaterial").value = "hBase";
     document.getElementById("materialTotalWeight").innerHTML = 0;
