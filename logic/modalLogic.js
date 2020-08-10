@@ -4,16 +4,13 @@ var btn = document.getElementById("receiptButton");
 
 var span = document.getElementsByClassName("close")[0];
 
-var receiptObjects= { name: "",
-                      details : "",
-                      weight : ""
-}
+var receiptObjects= {};
 
 function openReceiptModal () {
     modal.style.display = "block";
     for ( x in receiptObjects ){
         console.log(receiptObjects[x] + " ")
-        document.getElementById("itemsList").innerHTML = receiptObjects.name + " " + receiptObjects.details + " " + receiptObjects.weight;
+        document.getElementById("itemsList").innerHTML = receiptObjects;
     }
 }
 
