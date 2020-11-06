@@ -4,12 +4,8 @@ var btn = document.getElementById("receiptButton");
 
 var span = document.getElementsByClassName("close")[0];
 
-var receiptObjects= {};
-
 function openReceiptModal () {
     modal.style.display = "block";
-    for ( x in receiptItems ){
-    }
 }
 
 function closeReceiptModal() {
