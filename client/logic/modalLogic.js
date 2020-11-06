@@ -9,7 +9,6 @@ var receiptObjects= {};
 function openReceiptModal () {
     modal.style.display = "block";
     for ( x in receiptItems ){
-        console.log(itemsList[x] + " ")
     }
 }
 
