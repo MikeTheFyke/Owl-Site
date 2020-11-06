@@ -79,7 +79,7 @@ function totalWeightAdd () {
         var newQuantity = document.createElement("td");
         var newWeight = document.createElement("td");
         newName.innerHTML = receiptItems[receiptItem].name;
-        newSize.innerHTML = receiptItems[receiptItem].size;
+        newSize.innerHTML = receiptItems[receiptItem].size + "  " +receiptItems[receiptItem].type + "  "  + receiptItems[receiptItem].mount;
         newQuantity.innerHTML = receiptItems[receiptItem].quantity;
         newWeight.innerHTML = receiptItems[receiptItem].weight  + " lbs.";
         newRow.append(newName, newSize, newQuantity, newWeight);
