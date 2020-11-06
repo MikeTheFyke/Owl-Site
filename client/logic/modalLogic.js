@@ -8,9 +8,8 @@ var receiptObjects= {};
 
 function openReceiptModal () {
     modal.style.display = "block";
-    for ( x in receiptObjects ){
-        console.log(receiptObjects[x] + " ")
-        document.getElementById("itemsList").innerHTML = receiptObjects;
+    for ( x in receiptItems ){
+        console.log(itemsList[x] + " ")
     }
 }
 
