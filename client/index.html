@@ -123,12 +123,23 @@
             <span class="close" onclick="closeReceiptModal()">&times;</span>
             <h1 id="modalHeader">Your weight receipt</h1>
             <div id="receiptDataContainer">
-                <h1 id="itemsListName"></h1>
+                <!-- <h1 id="itemsListName"></h1>
                 <h1 id="itemsListSize"></h1>
                 <h1 id="itemsListType"></h1>
                 <h1 id="itemsListMount"></h1>
                 <h1 id="itemsListQuantity"></h1>
-                <h1 id="itemsListWeight"></h1>
+                <h1 id="itemsListWeight"></h1> -->
+                <table id='receiptItemsTable'>
+                    <tr>
+                        <th>Item type</th>
+                        <th>Description</th>
+                        <th>Quantity</th>
+                        <th>Weight</th>
+                    </tr>
+                    <tr id="newItems">
+
+                    </tr>
+                </table>
             </div>
         </div>
 
@@ -141,5 +152,22 @@
 <script src="./logic/itemLogic.js"></script>
 <script src="./logic/itemWeight.js"></script>
 <script src="./logic/modalLogic.js"></script>
+
+<style>
+    #receiptItemsTable{
+        text-align: center;
+        border-collapse: collapse;
+    }
+    #receiptItemsTable th{
+        width: 100%;
+        background-color: white;
+        padding: 0px 12px;
+        text-align: left;
+    }
+    #receiptItemsTable td {
+    padding: 0px 12px;
+    text-align: left;
+}
+</style>
 
 </html>
