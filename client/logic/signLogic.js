@@ -72,7 +72,6 @@ function totalWeightAdd () {
             quantity: numberOfSigns,
             weight: newWeight
         });
-
         var newRow  = document.createElement("tr");
         var newName = document.createElement("td"); 
         var newSize = document.createElement("td");
@@ -80,20 +79,12 @@ function totalWeightAdd () {
         var newWeight = document.createElement("td");
     for (receiptItem in receiptItems){
         newRow.remove();
-
         newName.innerHTML = receiptItems[receiptItem].name;
         newSize.innerHTML = receiptItems[receiptItem].size + "  " +receiptItems[receiptItem].type + "  "  + receiptItems[receiptItem].mount;
         newQuantity.innerHTML = receiptItems[receiptItem].quantity;
         newWeight.innerHTML = receiptItems[receiptItem].weight  + " lbs.";
         newRow.append(newName, newSize, newQuantity, newWeight);
         document.getElementById("newItems").appendChild(newRow);
-
-        // document.getElementById("itemsListName").innerHTML = receiptItems[receiptItem].name;
-        // document.getElementById("itemsListSize").innerHTML = receiptItems[receiptItem].size;
-        // document.getElementById("itemsListType").innerHTML = receiptItems[receiptItem].type;
-        // document.getElementById("itemsListMount").innerHTML = receiptItems[receiptItem].mount;
-        // document.getElementById("itemsListQuantity").innerHTML = receiptItems[receiptItem].quantity;
-        // document.getElementById("itemsListWeight").innerHTML = receiptItems[receiptItem].weight;
     }
     console.log(receiptItems);
     document.getElementById("signsSize").value = "30X30";

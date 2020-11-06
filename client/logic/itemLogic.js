@@ -33,7 +33,30 @@ function itemWeightAdd () {
     newItemWeight = document.getElementById("materialTotalWeight").innerHTML;
     console.log("New Item Weight :" + newItemWeight);
     signTotalWeight += parseFloat(newItemWeight);
-    receiptItems.push("Item",userSelect,numberOfItems,calculateItemWeight);
+    document.getElementById("completeTotalWeight").innerHTML = Math.round(signTotalWeight * 100) / 100;
+    receiptItems.push({
+        name: userSelect,
+        size: "",
+        type: "",
+        mount: "",
+        quantity: numberOfItems,
+        weight: newItemWeight
+    });
+    var newRow  = document.createElement("tr");
+    var newName = document.createElement("td"); 
+    var newSize = document.createElement("td");
+    var newQuantity = document.createElement("td");
+    var newWeight = document.createElement("td");
+    for (receiptItem in receiptItems){
+        newRow.remove();
+        newName.innerHTML = receiptItems[receiptItem].name;
+        newSize.innerHTML = "";
+        newQuantity.innerHTML = receiptItems[receiptItem].quantity;
+        newWeight.innerHTML = receiptItems[receiptItem].weight  + " lbs.";
+        newRow.append(newName, newSize, newQuantity, newWeight);
+        document.getElementById("newItems").appendChild(newRow);
+    }
+    
     console.log(receiptItems);
     document.getElementById("completeTotalWeight").innerHTML = signTotalWeight;
     document.getElementById("otherMaterial").value = "hBase";
