@@ -72,12 +72,15 @@ function totalWeightAdd () {
             quantity: numberOfSigns,
             weight: newWeight
         });
-    for (receiptItem in receiptItems){
+
         var newRow  = document.createElement("tr");
         var newName = document.createElement("td"); 
         var newSize = document.createElement("td");
         var newQuantity = document.createElement("td");
         var newWeight = document.createElement("td");
+    for (receiptItem in receiptItems){
+        newRow.remove();
+
         newName.innerHTML = receiptItems[receiptItem].name;
         newSize.innerHTML = receiptItems[receiptItem].size + "  " +receiptItems[receiptItem].type + "  "  + receiptItems[receiptItem].mount;
         newQuantity.innerHTML = receiptItems[receiptItem].quantity;
