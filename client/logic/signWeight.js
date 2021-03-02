@@ -389,7 +389,7 @@ function signs75X75 (){
         signUnitWeight = 3.13 ;
     } 
 }
-/// Loaded in MongoDB
+
 function signs75X90 (){
     if (strUser2 == ".20GA"){
         signUnitWeight = 2.16 ;
@@ -419,7 +419,7 @@ function signs75X90 (){
         signUnitWeight = 3.75 ;
     } 
 }
-
+/// Loaded in MongoDB
 function signs90X90 (){
     if (strUser2 == ".20GA"){
         signUnitWeight = 2.59 ;
