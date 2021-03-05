@@ -50,9 +50,11 @@ app.use(cors());
 
 const signs = require('./server/signs');
 const items = require('./server/items');
+const orders = require('./server/orders');
 
 app.use('/api/signs', signs)
 app.use('/api/items', items)
+app.use('/api/orders', orders)
 
 const port = process.env.PORT || 5000;
 
